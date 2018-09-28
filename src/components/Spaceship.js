@@ -2,14 +2,14 @@
 import React from 'react';
  class Spaceship extends React.Component {
 render(){
-  
+  return(
   <p>
   {this.props.name},
   {this.props.speed},
   {this.props.hasRockets},
   {this.props.colors},
 
-  </p>
+  </p>)
 }
 
 
